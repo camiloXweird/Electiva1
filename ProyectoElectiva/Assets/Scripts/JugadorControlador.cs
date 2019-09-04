@@ -22,6 +22,13 @@ public class JugadorControlador : MonoBehaviour {
         Vector3 movimiento = new Vector3 (movimientoHorizontal, 0.0f, movimientoVertical);
         rb.AddForce (movimiento * velocidad);
 
+    }
 
+    void OnTriggerEnter (Collider other) {
+        if (other.gameObject.CompareTag ("Recolectable")) {
+            other.gameObject.SetActive (false);
+        } else {
+
+        }
     }
 }
