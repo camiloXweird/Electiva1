@@ -27,8 +27,10 @@ public class JugadorControlador : MonoBehaviour {
     void OnTriggerEnter (Collider other) {
         if (other.gameObject.CompareTag ("Recolectable")) {
             other.gameObject.SetActive (false);
-        } else {
+        }
 
+        if (other.gameObject.CompareTag ("RecolectableNegativo")) {
+            other.gameObject.SetActive (false);
         }
     }
 }

@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\CamaraControler.cs" />
      <Compile Include="Assets\Scripts\JugadorControlador.cs" />
      <Compile Include="Assets\Scripts\Rotador.cs" />
+     <Compile Include="Assets\Scripts\RotadorNegativo.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/CHIQU/Downloads/Electiva1-camilo/ProyectoElectiva/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
