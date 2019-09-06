@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Recolectable
   - RecolectableNegativo
+  - Meta
+  - Meta2
   layers:
   - Default
   - TransparentFX
